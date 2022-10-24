@@ -47,6 +47,9 @@ awam_operation_list -> Sauvegarde des calculs
 Je partirais donc avec un total de 4 input (2 textes + 2 select) ainsi qu'un bouton pour valider le calcul. Vu que je souhaite faire cela de manière dynamique, je vais passer par de l'AJAX ( nous verrons après que plusieurs soucis -ridicules- vont se mettre sur ma route ) 
 
 
+NB : J'ai pris pour référence le vrai taux de change de l'euro -> dollars, donc l'addition 100 dollars + 5 euros ne fera pas 95 dollars !
+
+
 ### Etape 2 - Conception
 
 Je mets en place mon architecture et très rapidement, je pars sur une fonctionnalité de ce type : Lorsque je clique sur le bouton de calcul, je souhaite récupérer les valeurs des champs SELECT afin de comparer leur nom dans la BDD et récupérer le pourcentage affilié.
@@ -143,6 +146,6 @@ Cette vidéo et ce README me permet de vous montrer ma motivation, mon envie d'a
 
 Je n'ai pas réalisé de fichiers créant la table automatiquement. Ainsi, vous la trouverez dans le git dans le dossier database.
 
-Si besoin, les informations de connexion sont dans le database.php.
+Si besoin, les informations de connexion sont dans le database.php
 
  
